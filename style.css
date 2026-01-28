@@ -1,0 +1,39 @@
+.snack-box {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 2px solid #000;
+    text-align: center;
+}
+
+.mango, .peanut, .seaweed, .durian, .chips, .dragon {
+    height: 80px;
+    align-content: center;
+}
+
+.chips {
+    background: rgb(183, 210, 28);
+    grid-column: 1/3;
+}
+
+.peanut {
+    background: #ff7b00;
+}
+
+.seaweed {
+    background: rgb(0, 255, 123);
+}
+
+.durian {
+    background: orange;
+}
+
+.mango {
+    background: yellow;
+}
+
+.dragon {
+    background: purple;
+    color: white;
+    grid-column: -3 / -1;
+
+}
